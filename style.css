@@ -1,0 +1,92 @@
+body{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #bbb;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.header{
+    width: auto;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    background: #252525;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.header-color{
+    color: #bbb;
+}
+
+.header-button{
+    background-color: #f59;
+    border: 0px;
+    padding: 5px 10px;
+}
+
+.hire{
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background: #333;
+    color: #bbb;
+    letter-spacing: 0.5px;
+    padding-bottom: 3px;
+}
+
+.hire-link{
+    text-decoration-line: none;
+    color: white;
+}
+
+.container-1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+/*    flex-basis: 12%;*/
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.text-on-top{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.box:hover .text-on-top{
+    opacity: 1;
+    display: block;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+}
